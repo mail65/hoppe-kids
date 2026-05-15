@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Labyrinth Leicht – Heinrich Hoppe GmbH</title>
+<link rel="stylesheet" href="print-template.css">
+<style>@page { size: A4; margin: 15mm; }</style>
+</head>
+<body>
+<div class="print-page">
+  <a href="../index.html" class="back-btn no-print">← Zurück</a>
+  <div class="page-title">🌀 Labyrinth: Leicht — Heinrich Hoppe GmbH</div>
+  <div class="page-subtitle">⭐ Hilf dem LKW den Weg zum Lager zu finden!</div>
+  <button class="print-btn no-print" onclick="window.print()">🖨️ Ausdrucken</button>
+  <div class="svg-wrapper">
+    <svg width="660" height="640" viewBox="0 0 660 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <text x="14" y="18" font-family="Arial" font-size="14" fill="#2a7a5a" font-weight="700">START — LKW 🚛</text>
+      <text x="450" y="636" font-family="Arial" font-size="14" fill="#c02060" font-weight="700">ZIEL — Lager 🏭</text>
+      <!-- Outer border -->
+      <rect x="24" y="24" width="612" height="600" rx="8" stroke="#333" stroke-width="5" fill="none"/>
+      <!-- MAZE WALLS - Easy, big cells (102px) -->
+      <!-- Row 1 h-walls -->
+      <line x1="24" y1="126" x2="228" y2="126" stroke="#333" stroke-width="4"/>
+      <line x1="330" y1="126" x2="534" y2="126" stroke="#333" stroke-width="4"/>
+      <!-- Row 2 -->
+      <line x1="126" y1="228" x2="330" y2="228" stroke="#333" stroke-width="4"/>
+      <line x1="432" y1="228" x2="636" y2="228" stroke="#333" stroke-width="4"/>
+      <!-- Row 3 -->
+      <line x1="24" y1="330" x2="176" y2="330" stroke="#333" stroke-width="4"/>
+      <line x1="278" y1="330" x2="534" y2="330" stroke="#333" stroke-width="4"/>
+      <!-- Row 4 -->
+      <line x1="126" y1="432" x2="330" y2="432" stroke="#333" stroke-width="4"/>
+      <line x1="432" y1="432" x2="636" y2="432" stroke="#333" stroke-width="4"/>
+      <!-- Row 5 -->
+      <line x1="24" y1="534" x2="228" y2="534" stroke="#333" stroke-width="4"/>
+      <line x1="330" y1="534" x2="534" y2="534" stroke="#333" stroke-width="4"/>
+      <!-- Col 1 v-walls -->
+      <line x1="126" y1="24" x2="126" y2="228" stroke="#333" stroke-width="4"/>
+      <line x1="126" y1="330" x2="126" y2="432" stroke="#333" stroke-width="4"/>
+      <line x1="126" y1="534" x2="126" y2="624" stroke="#333" stroke-width="4"/>
+      <!-- Col 2 -->
+      <line x1="228" y1="126" x2="228" y2="330" stroke="#333" stroke-width="4"/>
+      <line x1="228" y1="432" x2="228" y2="624" stroke="#333" stroke-width="4"/>
+      <!-- Col 3 -->
+      <line x1="330" y1="24" x2="330" y2="126" stroke="#333" stroke-width="4"/>
+      <line x1="330" y1="228" x2="330" y2="432" stroke="#333" stroke-width="4"/>
+      <line x1="330" y1="534" x2="330" y2="624" stroke="#333" stroke-width="4"/>
+      <!-- Col 4 -->
+      <line x1="432" y1="126" x2="432" y2="228" stroke="#333" stroke-width="4"/>
+      <line x1="432" y1="330" x2="432" y2="534" stroke="#333" stroke-width="4"/>
+      <!-- Col 5 -->
+      <line x1="534" y1="24" x2="534" y2="126" stroke="#333" stroke-width="4"/>
+      <line x1="534" y1="228" x2="534" y2="330" stroke="#333" stroke-width="4"/>
+      <line x1="534" y1="432" x2="534" y2="624" stroke="#333" stroke-width="4"/>
+      <!-- START marker -->
+      <circle cx="75" cy="75" r="28" stroke="#2a7a5a" stroke-width="3.5" fill="#e8f7f0"/>
+      <text x="58" y="82" font-family="Arial" font-size="26">🚛</text>
+      <!-- END marker -->
+      <circle cx="585" cy="573" r="28" stroke="#c02060" stroke-width="3.5" fill="#fde8ef"/>
+      <text x="568" y="580" font-family="Arial" font-size="26">🏭</text>
+    </svg>
+  </div>
+  <div class="branding"><strong>Heinrich Hoppe GmbH</strong> · Seit 1925 – Ihr Partner für Logistik · Oyten bei Bremen</div>
+</div>
+</body>
+</html>
